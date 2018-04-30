@@ -75,7 +75,7 @@ main {
 }
 section {
   float: left;
-  width: 600px;
+  width: 800px;
   border-right: 1px solid #eeeeee;
   height: auto;
   margin: 10px 0px 10px 0px;
@@ -102,9 +102,6 @@ aside section a:hover {
   color: #a3297a;
   background-color: #efefef;
 }
-aside {
-  display: block;
-}
 a {
   color: #d22d53;
   text-decoration: none;
@@ -117,6 +114,7 @@ a {
 
 .artblog {
   background-color: #d2dbf9;
+  float: left;
 }
 /*-- highlights section with article links */
 .artblog a {
@@ -166,8 +164,8 @@ footer a {
                 </header> 
 <main>
 </main>
-<aside class="stages">
-  <section>
+<aside>
+  <section class="stages">
 <h3>Stages of Genocide</h3>
                         <a href="{{site.baseurl}}/stage1.html">Stage 1</a> 
                         <a href="{{site.baseurl}}/stage2.html">Stage 2</a> 
@@ -178,6 +176,8 @@ footer a {
                         <a href="{{site.baseurl}}/stage7.html">Stage 7</a> 
                         <a href="{{site.baseurl}}/stage8.html">Stage 8</a>
 </section>
+<section class="artblog">
+  </section>
 </aside>
 <footer>&copy; 2018 April Hummons<br />
     <a href="mailto:ahummons@gmail.com">a hummons at gmail dot com</a>
