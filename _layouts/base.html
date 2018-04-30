@@ -6,16 +6,18 @@
   <style>
 html,
 body {
-  background-color: #E2D9EA;
+  background-color: #e2d9ea;
   background-position: center;
   font-family: Georgia, Times, serif;
   line-height: 1.4em;
-  margin: 5px;}
+  margin: 5px;
+}
 .wrapper {
-  width: 940px;
+  max-width: 1240px;
   margin: 20px;
   border: 2px solid #000000;
-  background-color: #ffffff;}
+  background-color: #ffffff;
+}
 header {
   height: 200px;
   padding: 10px;
@@ -28,7 +30,8 @@ header {
 h1 {
   width: 940px;
   height: 130px;
-  margin: 10px;}
+  margin: 10px;
+}
 nav {
   clear: both;
   background-color: #aeaca8;
@@ -59,13 +62,18 @@ nav li {
   display: inline;
   margin-right: 30px;
 }
-nav li a:hover, nav li a.current {
+nav li a:hover,
+nav li a.current {
   color: #000000;
 }
 img {
   border: 2px solid purple;
 }
-section{
+main {
+  max-width: 940px;
+  background-color: #e2d9ea;
+}
+section {
   float: left;
   width: 600px;
   border-right: 1px solid #eeeeee;
@@ -82,7 +90,7 @@ article {
 aside {
   width: 280px;
   float: left;
-  padding: 0px 0px 0px 10px;
+  display: block;
 }
 aside section a {
   display: block;
@@ -94,26 +102,29 @@ aside section a:hover {
   color: #a3297a;
   background-color: #efefef;
 }
-aside{
+aside {
   display: block;
 }
 a {
   color: #d22d53;
   text-decoration: none;
 }
-.stages, .artblog {
+.stages,
+.artblog {
   max-width: 240px;
 }
 /*-- aside panel for stages of genocide and article */
 
 .artblog {
-    background-color: #d2dbf9;
+  background-color: #d2dbf9;
 }
 /*-- highlights section with article links */
 .artblog a {
-  color:black;
+  color: black;
 }
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: normal;
 }
 h3 {
@@ -122,13 +133,13 @@ h3 {
 }
 h4 {
   margin: 0px 0px 10px 0px;
-  color: #47047F;
+  color: #47047f;
 }
 aside h4 {
   padding: 30px 0px 10px 0px;
   color: #a3297a;
 }
-li{
+li {
   line-height: 200%;
 }
 aside section a {
@@ -153,7 +164,10 @@ footer a {
                     </ul>
                   </nav>
                 </header> 
+<main>
+</main>
 <aside class="stages">
+  <section>
 <h3>Stages of Genocide</h3>
                         <a href="{{site.baseurl}}/stage1.html">Stage 1</a> 
                         <a href="{{site.baseurl}}/stage2.html">Stage 2</a> 
@@ -163,6 +177,7 @@ footer a {
                         <a href="{{site.baseurl}}/stage6.html">Stage 6</a> 
                         <a href="{{site.baseurl}}/stage7.html">Stage 7</a> 
                         <a href="{{site.baseurl}}/stage8.html">Stage 8</a>
+</section>
 </aside>
 <footer>&copy; 2018 April Hummons<br />
     <a href="mailto:ahummons@gmail.com">a hummons at gmail dot com</a>
