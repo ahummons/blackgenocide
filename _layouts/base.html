@@ -19,18 +19,13 @@ body {
   background-color: #ffffff;
 }
 header {
-  height: 200px;
+  height: 100px;
   padding: 10px;
   display: block;
 }
 .genocide {
   height: 200px;
-  background-image: url({{site.baseurl}}/images/logo.jpg);
-}
-h1 {
-  width: 940px;
-  height: 130px;
-  margin: 10px;
+  background-image: url(images/logo.jpg);
 }
 nav {
   clear: both;
@@ -51,7 +46,7 @@ footer {
   height: auto;
   margin-top: 20px;
   margin-bottom: 20px;
-  padding: 7px 0px 0px 20px;
+  padding: 7px;
   display: block;
 }
 nav ul {
@@ -69,23 +64,19 @@ nav li a.current {
 img {
   border: 2px solid purple;
 }
-main {
-  max-width: 940px;
-  background-color: #e2d9ea;
-}
 section {
   float: left;
   width: 800px;
   border-right: 1px solid #eeeeee;
   height: auto;
-  margin: 10px 0px 10px 0px;
-  padding: 15px;
+  padding: 20px;
   display: block;
 }
 article {
   overflow: auto;
   width: 100%;
   display: block;
+  padding: 10px;
 }
 aside {
   width: 280px;
@@ -114,20 +105,19 @@ a {
 
 .artblog {
   background-color: #d2dbf9;
-  float: right;
+  float: left;
 }
 /*-- highlights section with article links */
 .artblog a {
   color: black;
 }
-h1,
-h2,
-h3 {
+h2 {
   font-weight: normal;
 }
 h3 {
   margin: 10px;
   padding: 10px;
+  font-weight: bold;
 }
 h4 {
   margin: 0px 0px 10px 0px;
@@ -146,6 +136,7 @@ aside section a {
 footer a {
   color: blue;
 }
+
 </style>
   <title>African American Genocide</title>
 </head>
@@ -162,6 +153,7 @@ footer a {
                     </ul>
                   </nav>
                 </header> 
+                
 <section class="courses">
     {{content}}
 </section>
